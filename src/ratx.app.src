@@ -1,0 +1,7 @@
+{application, ratx, [
+    {description, ""},
+    {vsn, ["0.0"]},
+    {applications, [kernel, stdlib]},
+    {registered, []},
+    {env, []}
+]}.
