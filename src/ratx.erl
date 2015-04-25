@@ -148,7 +148,7 @@ find_next(Queue, DropTimeout) ->
             end
     end.
 
-subsctruct_ms_from_now({MegaSecs, Secs, MicroSecs} = Now, Ms) ->
+subsctruct_ms_from_now({MegaSecs, Secs, MicroSecs}, Ms) ->
     MinusMegaSecs = Ms div 1000000000,
     MinusSecs = (Ms - MinusMegaSecs * 1000000000) div 1000,
     MinusMicroSecs = (Ms rem 1000) * 1000,
