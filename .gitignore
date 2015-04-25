@@ -1,2 +1,7 @@
 /ebin/
 .rebar
+/_build
+/cover
+/deps
+erl_crash.dump
+*.ez
