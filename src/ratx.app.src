@@ -1,6 +1,6 @@
 {application, ratx, [
-    {description, ""},
-    {vsn, ["0.0"]},
+    {description, "Rate limiter and overload protection erlang app"},
+    {vsn, "1.0"},
     {applications, [kernel, stdlib]},
     {registered, []},
     {env, []}
